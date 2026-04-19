@@ -3,7 +3,7 @@ import { Navbar, Container, Nav, Form, Button, Badge } from 'react-bootstrap';
 
 const TopNavbar = ({ totalRegistrations, searchQuery, setSearchQuery }) => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary mb-4">
+    <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
       <Container fluid>
         <Navbar.Brand href="#home" className="fw-bold">FAST Fest 2026</Navbar.Brand>
         
